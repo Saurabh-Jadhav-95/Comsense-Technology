@@ -1,0 +1,104 @@
+.main{
+    margin: 0px 40px 0px 40px;
+}
+ 
+.navbar {
+    background-color: #7a5bcd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 100px;
+}
+ 
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+ 
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 10px;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+ 
+.nav-links a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+ 
+.main-content {
+    text-align: center;
+    margin-top: 50px;
+}
+ 
+.react-logo {
+    max-width: 80%;
+    width: 550px;
+    display: block;
+    margin: auto;
+}
+ 
+.adarshbalika {
+    color: #6b7280;
+}
+ 
+.highlight {
+    color: #7a5bcd;
+    font-weight: bold;
+}
+ 
+.technologies {
+    background-color: #f3f4f6;
+    padding: 20px;
+    border-radius: 10px;
+}
+ 
+.projects {
+    margin: 20px;
+}
+ 
+.project_btn {
+    background-color: #7c3aed;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    color: white;
+    width: 140px;
+}
+ 
+.blog_btn {
+    border: 1px solid #7c3aed;
+    color: #7c3aed;
+    width: 140px;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+ 
+.social_media {
+    background-color: #7c3aed;
+    color: white;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 0px 15px 0px 0px;
+}
+ 
+.social_links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-right: 20px;
+    /* Adds horizontal gap between links */
+}
+ 
+.social_links a:last-child {
+    margin-right: 0;
+    /* Removes margin for the last link */
+}
+ 
+ 
